@@ -15,7 +15,6 @@ def palindrome(string):
         return False
 
 
-
 def run():
     try:
         word = input('Write one word: ')
