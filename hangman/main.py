@@ -58,7 +58,7 @@ def run():
                 continue
             message, lives = validate_letter(word_list, letter, lives, message)
             if '_' in message:
-                continue
+                won = False
             else:
                 won = True
         

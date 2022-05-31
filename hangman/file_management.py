@@ -28,9 +28,7 @@ def normalize(word): # Replace the accents and special characters
 
 def get_word(words):
     try:
-        limit = int(len(words)-1)
-        random_word = random.randint(0, limit)
-        word = words[random_word]
+        word = random.choice(words)
         word = normalize(word)
     except:
         return None
